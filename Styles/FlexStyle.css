@@ -1,0 +1,188 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: rgb(255, 199, 94);
+    overflow: hidden;
+}
+
+.flexHeader{
+    order: 0;
+    height: 25%;
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+	background-color: rgb(156, 214, 255);
+    padding: 1%;
+	padding-right: 3%;
+	overflow: hidden;
+    font-size: 1.4vw;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.right_text{
+	background-color: #0265a2;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 22px;
+    order: 0;
+
+}
+
+.middleStuff{
+    order: 1;
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: row;
+    width: 100%;
+    height: 65%;
+}
+.myBoxes{
+    order: 0;
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+.leftTopBox {
+    align-self: flex-start;
+    width: 100%;
+    order: 1;
+    background-color: #220fff;
+    overflow: hidden;
+    padding: 0.75%;
+	text-align: center;
+	font-size: 2vw;
+	overflow: hidden;
+    flex-wrap: wrap;
+    height: 50%;
+    flex-basis: 50%;
+  }
+  .leftBotBox {
+    width: 100%;
+    height: 50%;
+    order: 1;
+	background-color: #fff700;
+    overflow: hidden;
+    padding: 0.75%;
+	text-align: center;
+	font-size: 2vw;
+	overflow: hidden;
+    flex-basis: 50%;
+  }
+  .myPic{
+    order:1;
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+  .flexFooter{
+    padding: 10px 0;
+    order:2;
+    display: flex;
+    align-items: flex-start;
+    padding: 1%;
+	height: 35%;
+	overflow: hidden;
+    font-size: 1.3vw;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color:  rgb(247, 255, 156);
+   
+}
+.menuBox{
+    width: 18%;
+    height: 100%;
+    order: 4;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    overflow-y: scroll;
+	background-color: #0066ff;
+    height: 100%;
+}#menu ul{
+    width: 100%;
+  text-align: center;
+  float: right;
+  margin: none;
+}
+   
+#menu li{
+    width: 100%;
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+#menu li a, #menu li span{
+    display: inline-block;
+    text-decoration: none;
+	font-size: 1.2vw;
+    font-weight: 600;
+	text-shadow: 2px 2px 0px #000000;
+    text-transform: uppercase;
+    line-height: 500%;
+	overflow: hidden;
+}
+     
+#menu li a{
+	color: #fff700;
+}
+.slavaUkraini{
+    align-self: right;
+    text-align: right;
+    width: 100%;
+	height: 35%;
+	border-radius: 5px;
+	padding-right: 5px;
+	margin: 1%;
+	text-align: right;
+	-webkit-text-stroke-width: 0.25px;
+		-webkit-text-stroke-color: rgb(255, 255, 255);
+	background-image: -webkit-linear-gradient(0.4turn, #fff700,  #220fff);
+	font-size: 2.5vw;
+	overflow: hidden;
+}
+.heroiamSlava{
+    align-self: left;
+    text-align: left;
+    width: 70%;
+	height: 30%;
+	border-radius: 5px;
+	padding-right: 5px;
+	margin: 1%;
+    padding: 0.5%;
+	-webkit-text-stroke-width: 0.25px;
+		-webkit-text-stroke-color: rgb(255, 255, 255);
+	background-image: -webkit-linear-gradient(0.4turn, #fff700,  #220fff);
+	font-size: 1.8vw;
+	overflow: hidden;
+}
+.middleAndFooter{
+    order: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+}
+.meat{
+    order: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 75%;
+}
