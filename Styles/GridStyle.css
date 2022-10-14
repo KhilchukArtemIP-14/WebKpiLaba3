@@ -33,7 +33,7 @@ body {
     background-color:  rgb(247, 255, 156);
     padding: 1%;
 	padding-left: 22%;
-    font-size: 0.8vw;
+    font-size: 1.2vw;
     overflow: hidden;
   }
   .leftTopBox {
@@ -116,7 +116,7 @@ body {
     position:absolute;
     display: grid;
     left: 1%;
-    bottom: 35%;
+    top: 35%;
 	width: 15.75%;
 	border-radius: 5px;
 	padding-right: 5px;
