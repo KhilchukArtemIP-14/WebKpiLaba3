@@ -70,7 +70,6 @@ body {
         
 #menu ul{
     width: 100%;
-  text-align: center;
   float: right;
 }
    
@@ -110,7 +109,6 @@ body {
 	background-image: -webkit-linear-gradient(0.4turn, #fff700,  #220fff);
 	font-size: 1.97vw;
 	overflow: hidden;
-    align-self: right;
 }
 .HeroiamSlava{
     position:absolute;
@@ -127,7 +125,6 @@ body {
 	background-image: -webkit-linear-gradient(0.4turn, #fff700,  #220fff);
 	font-size: 1.97vw;
 	overflow: hidden;
-    align-self: right;
 }
 
 .portrait{

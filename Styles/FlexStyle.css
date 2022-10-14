@@ -9,15 +9,11 @@ body {
 }
 
 .flexHeader{
-    order: 0;
     height: 25%;
     display: flex;
+    overflow: hidden;
     align-items: flex-start;
 	background-color: rgb(156, 214, 255);
-    padding: 1%;
-	padding-right: 3%;
-	overflow: hidden;
-    font-size: 1.4vw;
     align-content: space-between;
     justify-content: space-between;
 }
@@ -115,14 +111,11 @@ body {
     width: 100%;
   text-align: center;
   float: right;
-  margin: none;
 }
    
 #menu li{
     width: 100%;
   display: inline-block;
-  padding: none;
-  margin: none;
 }
 
 #menu li a, #menu li span{
@@ -140,8 +133,6 @@ body {
 	color: #fff700;
 }
 .slavaUkraini{
-    align-self: right;
-    text-align: right;
     width: 100%;
 	height: 35%;
 	border-radius: 5px;
@@ -156,12 +147,10 @@ body {
 }
 .heroiamSlava{
     position: relative;
-    align-self: left;
     text-align: left;
     width: 70%;
     top:20%;
 	border-radius: 5px;
-	padding-right: 5px;
 	margin: 1%;
     padding: 0.5%;
 	-webkit-text-stroke-width: 0.25px;
@@ -178,7 +167,6 @@ body {
     height: 100%;
 }
 .meat{
-    order: 1;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -188,7 +176,16 @@ body {
 
 .portrait{
     position:absolute;
-    left:45%; 
+    left:35%; 
     top:10%;
     height:80%;
+}
+
+.flexHeaderText{
+    position: relative;
+    padding: 1%;
+	padding-right: 3%;
+	overflow: hidden;
+    font-size: 1.3vw;
+    height: 100%;
 }
