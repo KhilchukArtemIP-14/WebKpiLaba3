@@ -174,10 +174,10 @@ body {
 }
 
 .portrait{
-    position:absolute;
+    position:relative;
     left:35%; 
     top:10%;
-    height:80%;
+    width:50%;
 }
 
 .flexHeaderText{
