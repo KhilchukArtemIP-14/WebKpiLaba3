@@ -174,11 +174,11 @@ body {
 }
 
 .portrait{
-    position:relative;
-    left:35%; 
-    top:10%;
-    width:50%;
-	/*not deploying for some reason*/
+    display: flex;
+    position: relative;
+    max-width: 60%;
+    max-height: 80%;
+    margin: auto;
 }
 
 .flexHeaderText{
